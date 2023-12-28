@@ -17,6 +17,7 @@ class Model() {
                 grid(i)(j) = 0
             }
         }
+        playerTurn = 1
         updateGUI()
         gui.statusPanel.start()
 

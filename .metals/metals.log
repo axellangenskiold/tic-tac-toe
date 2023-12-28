@@ -594,3 +594,116 @@ org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Unsupported request method: bu
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.lang.Thread.run(Thread.java:833)
 [0m
+2023.12.28 14:56:13 INFO  BSP server: os.PathError$LastOnEmptyPath: empty path has no last segment[0m
+2023.12.28 14:56:13 INFO  BSP server: 	at os.PathError$LastOnEmptyPath$.apply(Path.scala:219)[0m
+2023.12.28 14:56:13 INFO  BSP server: 	at os.BasePathImpl.last$$anonfun$1(Path.scala:201)[0m
+2023.12.28 14:56:13 INFO  BSP server: 	at scala.Option.getOrElse(Option.scala:201)[0m
+2023.12.28 14:56:13 INFO  BSP server: 	at os.BasePathImpl.last(Path.scala:201)[0m
+2023.12.28 14:56:13 INFO  BSP server: 	at os.BasePathImpl.last$(Path.scala:181)[0m
+2023.12.28 14:56:13 INFO  BSP server: 	at os.RelPath.last(Path.scala:250)[0m
+2023.12.28 14:56:13 INFO  BSP server: 	at scala.build.bsp.BloopSession.isScalaFile$1(BloopSession.scala:38)[0m
+2023.12.28 14:56:13 INFO  BSP server: 	at scala.build.bsp.BloopSession.$anonfun$1(BloopSession.scala:40)[0m
+2023.12.28 14:56:13 INFO  BSP server: 	at scala.build.bsp.BloopSession.registerWatchInputs$$anonfun$1$$anonfun$1(BloopSession.scala:46)[0m
+2023.12.28 14:56:13 INFO  BSP server: 	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)[0m
+2023.12.28 14:56:13 INFO  BSP server: 	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)[0m
+2023.12.28 14:56:13 INFO  BSP server: 	at scala.build.Build$$anon$1.onNext(Build.scala:1106)[0m
+2023.12.28 14:56:13 INFO  BSP server: 	at scala.build.Build$$anon$1.onNext(Build.scala:1105)[0m
+2023.12.28 14:56:13 INFO  BSP server: 	at com.swoval.files.Observers.onNext(Observers.java:31)[0m
+2023.12.28 14:56:13 INFO  BSP server: 	at com.swoval.files.SymlinkFollowingPathWatcher$1.onNext(SymlinkFollowingPathWatcher.java:58)[0m
+2023.12.28 14:56:13 INFO  BSP server: 	at com.swoval.files.SymlinkFollowingPathWatcher$1.onNext(SymlinkFollowingPathWatcher.java:36)[0m
+2023.12.28 14:56:13 INFO  BSP server: 	at com.swoval.files.Observers.onNext(Observers.java:31)[0m
+2023.12.28 14:56:13 INFO  BSP server: 	at com.swoval.files.ApplePathWatcher$1.accept(ApplePathWatcher.java:287)[0m
+2023.12.28 14:56:13 INFO  BSP server: 	at com.swoval.files.ApplePathWatcher$1.accept(ApplePathWatcher.java:261)[0m
+2023.12.28 14:56:13 INFO  BSP server: 	at com.swoval.files.apple.FileEventMonitorImpl$WrappedConsumer$1.run(FileEventMonitors.java:178)[0m
+2023.12.28 14:56:13 INFO  BSP server: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)[0m
+2023.12.28 14:56:13 INFO  BSP server: 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+2023.12.28 14:56:13 INFO  BSP server: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)[0m
+2023.12.28 14:56:13 INFO  BSP server: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)[0m
+2023.12.28 14:56:13 INFO  BSP server: 	at java.lang.Thread.run(Thread.java:833)[0m
+2023.12.28 14:56:13 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:705)[0m
+2023.12.28 14:56:13 INFO  BSP server: 	at com.oracle.svm.core.posix.thread.PosixPlatformThreads.pthreadStartRoutine(PosixPlatformThreads.java:202)[0m
+2023.12.28 14:58:25 INFO  BSP server: os.PathError$LastOnEmptyPath: empty path has no last segment[0m
+2023.12.28 14:58:25 INFO  BSP server: 	at os.PathError$LastOnEmptyPath$.apply(Path.scala:219)[0m
+2023.12.28 14:58:25 INFO  BSP server: 	at os.BasePathImpl.last$$anonfun$1(Path.scala:201)[0m
+2023.12.28 14:58:25 INFO  BSP server: 	at scala.Option.getOrElse(Option.scala:201)[0m
+2023.12.28 14:58:25 INFO  BSP server: 	at os.BasePathImpl.last(Path.scala:201)[0m
+2023.12.28 14:58:25 INFO  BSP server: 	at os.BasePathImpl.last$(Path.scala:181)[0m
+2023.12.28 14:58:25 INFO  BSP server: 	at os.RelPath.last(Path.scala:250)[0m
+2023.12.28 14:58:25 INFO  BSP server: 	at scala.build.bsp.BloopSession.isScalaFile$1(BloopSession.scala:38)[0m
+2023.12.28 14:58:25 INFO  BSP server: 	at scala.build.bsp.BloopSession.$anonfun$1(BloopSession.scala:40)[0m
+2023.12.28 14:58:25 INFO  BSP server: 	at scala.build.bsp.BloopSession.registerWatchInputs$$anonfun$1$$anonfun$1(BloopSession.scala:46)[0m
+2023.12.28 14:58:25 INFO  BSP server: 	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)[0m
+2023.12.28 14:58:25 INFO  BSP server: 	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)[0m
+2023.12.28 14:58:25 INFO  BSP server: 	at scala.build.Build$$anon$1.onNext(Build.scala:1106)[0m
+2023.12.28 14:58:25 INFO  BSP server: 	at scala.build.Build$$anon$1.onNext(Build.scala:1105)[0m
+2023.12.28 14:58:25 INFO  BSP server: 	at com.swoval.files.Observers.onNext(Observers.java:31)[0m
+2023.12.28 14:58:25 INFO  BSP server: 	at com.swoval.files.SymlinkFollowingPathWatcher$1.onNext(SymlinkFollowingPathWatcher.java:58)[0m
+2023.12.28 14:58:25 INFO  BSP server: 	at com.swoval.files.SymlinkFollowingPathWatcher$1.onNext(SymlinkFollowingPathWatcher.java:36)[0m
+2023.12.28 14:58:25 INFO  BSP server: 	at com.swoval.files.Observers.onNext(Observers.java:31)[0m
+2023.12.28 14:58:25 INFO  BSP server: 	at com.swoval.files.ApplePathWatcher$1.accept(ApplePathWatcher.java:287)[0m
+2023.12.28 14:58:25 INFO  BSP server: 	at com.swoval.files.ApplePathWatcher$1.accept(ApplePathWatcher.java:261)[0m
+2023.12.28 14:58:25 INFO  BSP server: 	at com.swoval.files.apple.FileEventMonitorImpl$WrappedConsumer$1.run(FileEventMonitors.java:178)[0m
+2023.12.28 14:58:25 INFO  BSP server: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)[0m
+2023.12.28 14:58:25 INFO  BSP server: 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+2023.12.28 14:58:25 INFO  BSP server: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)[0m
+2023.12.28 14:58:25 INFO  BSP server: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)[0m
+2023.12.28 14:58:25 INFO  BSP server: 	at java.lang.Thread.run(Thread.java:833)[0m
+2023.12.28 14:58:25 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:705)[0m
+2023.12.28 14:58:25 INFO  BSP server: 	at com.oracle.svm.core.posix.thread.PosixPlatformThreads.pthreadStartRoutine(PosixPlatformThreads.java:202)[0m
+2023.12.28 14:58:33 INFO  Shutting down server[0m
+2023.12.28 14:58:33 INFO  shutting down Metals[0m
+2023.12.28 14:58:34 INFO  BSP server: Dec 28, 2023 2:58:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification[0m
+2023.12.28 14:58:34 INFO  Shut down connection with build server.[0m
+2023.12.28 14:58:34 INFO  BSP server: WARNING: Notification threw an exception: {[0m
+2023.12.28 14:58:34 INFO  BSP server:   "jsonrpc": "2.0",[0m
+2023.12.28 14:58:34 INFO  BSP server:   "method": "build/exit",[0m
+2023.12.28 14:58:34 INFO  BSP server:   "params": null[0m
+2023.12.28 14:58:34 INFO  BSP server: }[0m
+2023.12.28 14:58:34 INFO  BSP server: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException[0m
+2023.12.28 14:58:34 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)[0m
+2023.12.28 14:58:34 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)[0m
+2023.12.28 14:58:34 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)[0m
+2023.12.28 14:58:34 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)[0m
+2023.12.28 14:58:34 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)[0m
+2023.12.28 14:58:34 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)[0m
+2023.12.28 14:58:34 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)[0m
+2023.12.28 14:58:34 INFO  BSP server: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)[0m
+2023.12.28 14:58:34 INFO  BSP server: 	at java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+2023.12.28 14:58:34 INFO  BSP server: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)[0m
+2023.12.28 14:58:34 INFO  BSP server: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)[0m
+2023.12.28 14:58:34 INFO  BSP server: 	at java.lang.Thread.run(Thread.java:833)[0m
+2023.12.28 14:58:34 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:705)[0m
+2023.12.28 14:58:34 INFO  BSP server: 	at com.oracle.svm.core.posix.thread.PosixPlatformThreads.pthreadStartRoutine(PosixPlatformThreads.java:202)[0m
+2023.12.28 14:58:34 INFO  BSP server: Caused by: java.lang.reflect.InvocationTargetException[0m
+2023.12.28 14:58:34 INFO  BSP server: 	at java.lang.reflect.Method.invoke(Method.java:568)[0m
+2023.12.28 14:58:34 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)[0m
+2023.12.28 14:58:34 INFO  BSP server: 	... 13 more[0m
+2023.12.28 14:58:34 INFO  BSP server: Caused by: java.lang.RuntimeException: BSP server not initialized yet[0m
+2023.12.28 14:58:34 INFO  BSP server: 	at scala.sys.package$.error(package.scala:27)[0m
+2023.12.28 14:58:34 INFO  BSP server: 	at scala.build.bsp.BloopSession$Reference.get(BloopSession.scala:61)[0m
+2023.12.28 14:58:34 INFO  BSP server: 	at scala.build.bsp.BspImpl.$anonfun$9(BspImpl.scala:428)[0m
+2023.12.28 14:58:34 INFO  BSP server: 	at scala.build.bsp.BuildServerProxy.onBuildExit(BuildServerProxy.scala:23)[0m
+2023.12.28 14:58:34 INFO  BSP server: 	... 15 more[0m
+2023.12.28 14:58:34 INFO  BSP server: [0m
+2023.12.28 14:58:33 INFO  Exiting server[0m
+2023.12.28 23:57:09 INFO  Started: Metals version 1.2.0 in folders '/Users/axellangenskiold/Documents/personal-projects/tic-tac-toe' for client Visual Studio Code 1.83.1.[0m
+2023.12.28 23:57:13 INFO  Attempting to connect to the build server...[0m
+2023.12.28 23:57:13 WARN  No build session currently active to reload.[0m
+2023.12.28 23:57:13 INFO  Running BSP server List(/Users/axellangenskiold/Library/Application Support/Coursier/bin/.scala-cli.aux, bsp, --json-options, /Users/axellangenskiold/Documents/personal-projects/tic_tac_toe/.scala-build/ide-options-v2.json, /Users/axellangenskiold/Documents/personal-projects/tic_tac_toe)[0m
+2023.12.28 23:57:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/axellangenskiold/Documents/personal-projects/tic-tac-toe/.metals/bsp.trace.json or /Users/axellangenskiold/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2023.12.28 23:57:14 INFO  BSP server: Error: java.nio.file.NoSuchFileException: /Users/axellangenskiold/Documents/personal-projects/tic_tac_toe/.scala-build/ide-options-v2.json[0m
+2023.12.28 23:57:14 INFO  BSP server: For more details, please see '/Users/axellangenskiold/Documents/personal-projects/tic_tac_toe/.scala-build/stacktraces/1703804234-11396595437370408154.log'[0m
+2023.12.28 23:58:13 ERROR Timeout waiting for 'build/initialize' response[0m
+2023.12.28 23:58:13 WARN  Retrying connection to the build server scala-cli[0m
+2023.12.28 23:58:13 INFO  Running BSP server List(/Users/axellangenskiold/Library/Application Support/Coursier/bin/.scala-cli.aux, bsp, --json-options, /Users/axellangenskiold/Documents/personal-projects/tic_tac_toe/.scala-build/ide-options-v2.json, /Users/axellangenskiold/Documents/personal-projects/tic_tac_toe)[0m
+2023.12.28 23:58:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/axellangenskiold/Documents/personal-projects/tic-tac-toe/.metals/bsp.trace.json or /Users/axellangenskiold/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2023.12.28 23:58:14 INFO  BSP server: Error: java.nio.file.NoSuchFileException: /Users/axellangenskiold/Documents/personal-projects/tic_tac_toe/.scala-build/ide-options-v2.json[0m
+2023.12.28 23:58:14 INFO  BSP server: For more details, please see '/Users/axellangenskiold/Documents/personal-projects/tic_tac_toe/.scala-build/stacktraces/1703804294-7899746253549359022.log'[0m
+2023.12.28 23:58:46 INFO  no build target found for /Users/axellangenskiold/Documents/personal-projects/tic-tac-toe/src/StatusPanel.scala. Using presentation compiler with project's scala-library version: 3.3.1[0m
+2023.12.28 23:59:03 WARN  no build target for: /Users/axellangenskiold/Documents/personal-projects/tic-tac-toe/src/Model.scala[0m
+2023.12.28 23:59:13 ERROR Timeout waiting for 'build/initialize' response[0m
+2023.12.28 23:59:13 WARN  Retrying connection to the build server scala-cli[0m
+2023.12.28 23:59:13 INFO  Running BSP server List(/Users/axellangenskiold/Library/Application Support/Coursier/bin/.scala-cli.aux, bsp, --json-options, /Users/axellangenskiold/Documents/personal-projects/tic_tac_toe/.scala-build/ide-options-v2.json, /Users/axellangenskiold/Documents/personal-projects/tic_tac_toe)[0m
+2023.12.28 23:59:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/axellangenskiold/Documents/personal-projects/tic-tac-toe/.metals/bsp.trace.json or /Users/axellangenskiold/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2023.12.28 23:59:14 INFO  BSP server: Error: java.nio.file.NoSuchFileException: /Users/axellangenskiold/Documents/personal-projects/tic_tac_toe/.scala-build/ide-options-v2.json[0m
+2023.12.28 23:59:14 INFO  BSP server: For more details, please see '/Users/axellangenskiold/Documents/personal-projects/tic_tac_toe/.scala-build/stacktraces/1703804354-11505101169648548528.log'[0m
