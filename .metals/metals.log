@@ -707,3 +707,101 @@ org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Unsupported request method: bu
 2023.12.28 23:59:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/axellangenskiold/Documents/personal-projects/tic-tac-toe/.metals/bsp.trace.json or /Users/axellangenskiold/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
 2023.12.28 23:59:14 INFO  BSP server: Error: java.nio.file.NoSuchFileException: /Users/axellangenskiold/Documents/personal-projects/tic_tac_toe/.scala-build/ide-options-v2.json[0m
 2023.12.28 23:59:14 INFO  BSP server: For more details, please see '/Users/axellangenskiold/Documents/personal-projects/tic_tac_toe/.scala-build/stacktraces/1703804354-11505101169648548528.log'[0m
+2023.12.29 00:00:13 ERROR Timeout waiting for 'build/initialize' response[0m
+2023.12.29 00:00:13 WARN  Retrying connection to the build server scala-cli[0m
+2023.12.29 00:00:13 INFO  Running BSP server List(/Users/axellangenskiold/Library/Application Support/Coursier/bin/.scala-cli.aux, bsp, --json-options, /Users/axellangenskiold/Documents/personal-projects/tic_tac_toe/.scala-build/ide-options-v2.json, /Users/axellangenskiold/Documents/personal-projects/tic_tac_toe)[0m
+2023.12.29 00:00:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/axellangenskiold/Documents/personal-projects/tic-tac-toe/.metals/bsp.trace.json or /Users/axellangenskiold/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2023.12.29 00:00:14 INFO  BSP server: Error: java.nio.file.NoSuchFileException: /Users/axellangenskiold/Documents/personal-projects/tic_tac_toe/.scala-build/ide-options-v2.json[0m
+2023.12.29 00:00:14 INFO  BSP server: For more details, please see '/Users/axellangenskiold/Documents/personal-projects/tic_tac_toe/.scala-build/stacktraces/1703804414-16941460408163207205.log'[0m
+2023.12.29 00:01:14 ERROR Timeout waiting for 'build/initialize' response[0m
+2023.12.29 00:01:14 WARN  Retrying connection to the build server scala-cli[0m
+2023.12.29 00:01:14 INFO  Running BSP server List(/Users/axellangenskiold/Library/Application Support/Coursier/bin/.scala-cli.aux, bsp, --json-options, /Users/axellangenskiold/Documents/personal-projects/tic_tac_toe/.scala-build/ide-options-v2.json, /Users/axellangenskiold/Documents/personal-projects/tic_tac_toe)[0m
+2023.12.29 00:01:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/axellangenskiold/Documents/personal-projects/tic-tac-toe/.metals/bsp.trace.json or /Users/axellangenskiold/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2023.12.29 00:01:14 INFO  BSP server: Error: java.nio.file.NoSuchFileException: /Users/axellangenskiold/Documents/personal-projects/tic_tac_toe/.scala-build/ide-options-v2.json[0m
+2023.12.29 00:01:14 INFO  BSP server: For more details, please see '/Users/axellangenskiold/Documents/personal-projects/tic_tac_toe/.scala-build/stacktraces/1703804474-6844981184900835003.log'[0m
+2023.12.29 00:02:14 ERROR Timeout waiting for 'build/initialize' response[0m
+2023.12.29 00:02:14 WARN  Retrying connection to the build server scala-cli[0m
+2023.12.29 00:02:14 INFO  Running BSP server List(/Users/axellangenskiold/Library/Application Support/Coursier/bin/.scala-cli.aux, bsp, --json-options, /Users/axellangenskiold/Documents/personal-projects/tic_tac_toe/.scala-build/ide-options-v2.json, /Users/axellangenskiold/Documents/personal-projects/tic_tac_toe)[0m
+2023.12.29 00:02:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/axellangenskiold/Documents/personal-projects/tic-tac-toe/.metals/bsp.trace.json or /Users/axellangenskiold/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2023.12.29 00:02:14 INFO  BSP server: Error: java.nio.file.NoSuchFileException: /Users/axellangenskiold/Documents/personal-projects/tic_tac_toe/.scala-build/ide-options-v2.json[0m
+2023.12.29 00:02:14 INFO  BSP server: For more details, please see '/Users/axellangenskiold/Documents/personal-projects/tic_tac_toe/.scala-build/stacktraces/1703804534-5767964217168347905.log'[0m
+2023.12.29 00:03:14 ERROR Timeout waiting for 'build/initialize' response[0m
+2023.12.29 00:03:14 ERROR Failed to connect with build server, no functionality will work.
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:640)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:533)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2023.12.29 00:03:14 WARN  no build target for: /Users/axellangenskiold/Documents/personal-projects/tic-tac-toe/src/StatusPanel.scala[0m
+2023.12.29 00:03:14 WARN  no build target for: /Users/axellangenskiold/Documents/personal-projects/tic-tac-toe/src/Model.scala[0m
+dec. 29, 2023 11:47:18 FM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+dec. 29, 2023 11:47:20 FM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.12.29 12:03:56 INFO  Shutting down server[0m
+2023.12.29 12:03:56 INFO  shutting down Metals[0m
+2023.12.29 12:03:56 INFO  Exiting server[0m
+2023.12.29 12:47:07 INFO  Started: Metals version 1.2.0 in folders '/Users/axellangenskiold/Documents/personal-projects/tic-tac-toe' for client Visual Studio Code 1.83.1.[0m
+2023.12.29 12:47:10 WARN  No build session currently active to reload.[0m
+2023.12.29 12:47:10 INFO  Attempting to connect to the build server...[0m
+2023.12.29 12:47:10 INFO  Running BSP server List(/Users/axellangenskiold/Library/Application Support/Coursier/bin/.scala-cli.aux, bsp, --json-options, /Users/axellangenskiold/Documents/personal-projects/tic_tac_toe/.scala-build/ide-options-v2.json, /Users/axellangenskiold/Documents/personal-projects/tic_tac_toe)[0m
+2023.12.29 12:47:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/axellangenskiold/Documents/personal-projects/tic-tac-toe/.metals/bsp.trace.json or /Users/axellangenskiold/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2023.12.29 12:47:10 INFO  BSP server: Error: java.nio.file.NoSuchFileException: /Users/axellangenskiold/Documents/personal-projects/tic_tac_toe/.scala-build/ide-options-v2.json[0m
+2023.12.29 12:47:10 INFO  BSP server: For more details, please see '/Users/axellangenskiold/Documents/personal-projects/tic_tac_toe/.scala-build/stacktraces/1703850430-2071359178566353086.log'[0m
+2023.12.29 12:47:17 INFO  no build target found for /Users/axellangenskiold/Documents/personal-projects/tic-tac-toe/src/Model.scala. Using presentation compiler with project's scala-library version: 3.3.1[0m
+2023.12.29 12:48:10 ERROR Timeout waiting for 'build/initialize' response[0m
+2023.12.29 12:48:10 WARN  Retrying connection to the build server scala-cli[0m
+2023.12.29 12:48:10 INFO  Running BSP server List(/Users/axellangenskiold/Library/Application Support/Coursier/bin/.scala-cli.aux, bsp, --json-options, /Users/axellangenskiold/Documents/personal-projects/tic_tac_toe/.scala-build/ide-options-v2.json, /Users/axellangenskiold/Documents/personal-projects/tic_tac_toe)[0m
+2023.12.29 12:48:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/axellangenskiold/Documents/personal-projects/tic-tac-toe/.metals/bsp.trace.json or /Users/axellangenskiold/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2023.12.29 12:48:10 INFO  BSP server: Error: java.nio.file.NoSuchFileException: /Users/axellangenskiold/Documents/personal-projects/tic_tac_toe/.scala-build/ide-options-v2.json[0m
+2023.12.29 12:48:10 INFO  BSP server: For more details, please see '/Users/axellangenskiold/Documents/personal-projects/tic_tac_toe/.scala-build/stacktraces/1703850490-2210110450642670837.log'[0m
+2023.12.29 12:49:10 ERROR Timeout waiting for 'build/initialize' response[0m
+2023.12.29 12:49:10 WARN  Retrying connection to the build server scala-cli[0m
+2023.12.29 12:49:10 INFO  Running BSP server List(/Users/axellangenskiold/Library/Application Support/Coursier/bin/.scala-cli.aux, bsp, --json-options, /Users/axellangenskiold/Documents/personal-projects/tic_tac_toe/.scala-build/ide-options-v2.json, /Users/axellangenskiold/Documents/personal-projects/tic_tac_toe)[0m
+2023.12.29 12:49:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/axellangenskiold/Documents/personal-projects/tic-tac-toe/.metals/bsp.trace.json or /Users/axellangenskiold/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2023.12.29 12:49:11 INFO  BSP server: Error: java.nio.file.NoSuchFileException: /Users/axellangenskiold/Documents/personal-projects/tic_tac_toe/.scala-build/ide-options-v2.json[0m
+2023.12.29 12:49:11 INFO  BSP server: For more details, please see '/Users/axellangenskiold/Documents/personal-projects/tic_tac_toe/.scala-build/stacktraces/1703850551-14829802159549517537.log'[0m
+2023.12.29 12:50:10 ERROR Timeout waiting for 'build/initialize' response[0m
+2023.12.29 12:50:10 WARN  Retrying connection to the build server scala-cli[0m
+2023.12.29 12:50:10 INFO  Running BSP server List(/Users/axellangenskiold/Library/Application Support/Coursier/bin/.scala-cli.aux, bsp, --json-options, /Users/axellangenskiold/Documents/personal-projects/tic_tac_toe/.scala-build/ide-options-v2.json, /Users/axellangenskiold/Documents/personal-projects/tic_tac_toe)[0m
+2023.12.29 12:50:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/axellangenskiold/Documents/personal-projects/tic-tac-toe/.metals/bsp.trace.json or /Users/axellangenskiold/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2023.12.29 12:50:11 INFO  BSP server: Error: java.nio.file.NoSuchFileException: /Users/axellangenskiold/Documents/personal-projects/tic_tac_toe/.scala-build/ide-options-v2.json[0m
+2023.12.29 12:50:11 INFO  BSP server: For more details, please see '/Users/axellangenskiold/Documents/personal-projects/tic_tac_toe/.scala-build/stacktraces/1703850611-5011249617243867458.log'[0m
+2023.12.29 12:51:10 ERROR Timeout waiting for 'build/initialize' response[0m
+2023.12.29 12:51:10 WARN  Retrying connection to the build server scala-cli[0m
+2023.12.29 12:51:10 INFO  Running BSP server List(/Users/axellangenskiold/Library/Application Support/Coursier/bin/.scala-cli.aux, bsp, --json-options, /Users/axellangenskiold/Documents/personal-projects/tic_tac_toe/.scala-build/ide-options-v2.json, /Users/axellangenskiold/Documents/personal-projects/tic_tac_toe)[0m
+2023.12.29 12:51:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/axellangenskiold/Documents/personal-projects/tic-tac-toe/.metals/bsp.trace.json or /Users/axellangenskiold/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2023.12.29 12:51:11 INFO  BSP server: Error: java.nio.file.NoSuchFileException: /Users/axellangenskiold/Documents/personal-projects/tic_tac_toe/.scala-build/ide-options-v2.json[0m
+2023.12.29 12:51:11 INFO  BSP server: For more details, please see '/Users/axellangenskiold/Documents/personal-projects/tic_tac_toe/.scala-build/stacktraces/1703850671-691554202451138699.log'[0m
+2023.12.29 12:52:10 ERROR Timeout waiting for 'build/initialize' response[0m
+2023.12.29 12:52:10 WARN  Retrying connection to the build server scala-cli[0m
+2023.12.29 12:52:10 INFO  Running BSP server List(/Users/axellangenskiold/Library/Application Support/Coursier/bin/.scala-cli.aux, bsp, --json-options, /Users/axellangenskiold/Documents/personal-projects/tic_tac_toe/.scala-build/ide-options-v2.json, /Users/axellangenskiold/Documents/personal-projects/tic_tac_toe)[0m
+2023.12.29 12:52:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/axellangenskiold/Documents/personal-projects/tic-tac-toe/.metals/bsp.trace.json or /Users/axellangenskiold/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2023.12.29 12:52:11 INFO  BSP server: Error: java.nio.file.NoSuchFileException: /Users/axellangenskiold/Documents/personal-projects/tic_tac_toe/.scala-build/ide-options-v2.json[0m
+2023.12.29 12:52:11 INFO  BSP server: For more details, please see '/Users/axellangenskiold/Documents/personal-projects/tic_tac_toe/.scala-build/stacktraces/1703850731-11526266486774756393.log'[0m
+2023.12.29 12:53:10 ERROR Timeout waiting for 'build/initialize' response[0m
+2023.12.29 12:53:10 ERROR Failed to connect with build server, no functionality will work.
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:640)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:533)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2023.12.29 12:53:10 WARN  no build target for: /Users/axellangenskiold/Documents/personal-projects/tic-tac-toe/src/Model.scala[0m
+2023.12.29 14:07:53 WARN  no build target for: /Users/axellangenskiold/Documents/personal-projects/tic-tac-toe/src/GUI.scala[0m
+2023.12.29 14:08:21 WARN  no build target for: /Users/axellangenskiold/Documents/personal-projects/tic-tac-toe/src/GUI.scala[0m
+2023.12.30 14:12:54 WARN  no build target for: /Users/axellangenskiold/Documents/personal-projects/tic-tac-toe/src/Square.scala[0m
+2023.12.30 14:13:24 WARN  no build target for: /Users/axellangenskiold/Documents/personal-projects/tic-tac-toe/src/StatusPanel.scala[0m
+2023.12.30 14:13:29 WARN  no build target for: /Users/axellangenskiold/Documents/personal-projects/tic-tac-toe/src/Field.scala[0m
+2023.12.30 14:13:39 INFO  Shutting down server[0m
+2023.12.30 14:13:39 INFO  shutting down Metals[0m
+2023.12.30 14:13:39 INFO  Exiting server[0m
